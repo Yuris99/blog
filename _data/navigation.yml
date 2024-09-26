@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Algorithm"
+    url: https://algorithm.yuris.io/
+  - title: "About"
+    url: https://yuris.io/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +12,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+categories:
+  - title: Lecture Notes
+    children:
+      - title: 24-Fall
