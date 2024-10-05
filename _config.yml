@@ -311,11 +311,10 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "assets/imgs"
+      path: ""
       type: posts
     values:
       layout: single
-      image: true
       author_profile: true
       read_time: true
       comments: # true
