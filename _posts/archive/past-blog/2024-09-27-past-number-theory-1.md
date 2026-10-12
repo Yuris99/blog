@@ -1,0 +1,219 @@
+---
+title: '[NT] 1. Proofs'
+categories:
+- Study
+- 24-2
+- NumberTheory
+tags:
+- Number Theory
+date: 2024-09-27 00:00:00 +0900
+permalink: /study/2024-2/number-theory/1/
+math: true
+archive_source: Yuris99/past-blog
+archive_source_path: _posts/Study/24-2/NumberTheory/2024-09-27-1.md
+archive_source_commit: e65436978e96e9427b0c30bc6b8b754ccd8c6eb7
+---
+
+[> Go to Number Theory Contents]({{ '/study/2024-2/number-theory/' | relative_url }})
+
+
+# How to prove a statement
+
+## Direct Proof
+
+Direct proof는 다음과 같은 형식 (conditional statement)에 효과적
+
+**[If $P$ then $Q$] or [$P$ implies $Q$] or [$P$ => $Q$]** (called "conditional statement")      
+
+$P$: hypothesis(가정), $Q$: conclusion(결론)   
+*만약 $P$이면 $Q$이다* 라는 형태, 이를 "conditional statement"라고 부른다. 
+
+
+**Prove: Let m and n be integers. If both m and n are odd, then mn is odd.**   
+m,n이 정수이고 홀수일 때, mn은 소수 라는 사실을 증명하라   
+
+- Proof: Let "__m, n be integers, and m, n are odd__"
+  - State the Hypothesis
+- To show: "__mn is odd__"
+  - State the Conclusion
+   
+   
+>Integer (정수): $\mathbb{Z} = \lbrace 0, \pm1, \pm2, ...\rbrace$
+>\begin{align}
+&p + q &\in \mathbb{Z} \text{ }(\text{for any  } p \in \mathbb{Z} \text{ and } q \in \mathbb{Z}) \nonumber\newline     
+&pq &\in \mathbb{Z}  \text{ }(\text{for any  } p \in \mathbb{Z} \text{  and  } q \in \mathbb{Z}) \nonumber
+\end{align}
+   
+
+\begin{align}
+\textbf{Given } m, n \in \mathbb{Z}, \nonumber\newline 
+m &= 2k+1 &\text{ for some } k &\in \mathbb{Z} \nonumber\newline   
+n &= 2l+1 &\text{ for some } l &\in \mathbb{Z} \nonumber\newline   
+\end{align}
+
+> for **some**인 이유: 조건이 붙었기 때문에 Any를 사용하면 안된다.
+
+\begin{align}
+\textbf{Will show }mn = 2r+1 \text{ for some } r \in \mathbb{Z} \nonumber
+\end{align}
+
+
+\begin{align}
+mn &= (2k+1)(2l+1) \nonumber\newline
+&= 4kl+2k+2l+1 \nonumber\newline
+&= 2(2kl+k+l)+1 \nonumber\newline
+\end{align}
+
+\begin{align}
+\textbf{Since }k, l \in \mathbb{Z},   r = 2kl+k+l \text{ is in } \mathbb{Z} \nonumber\newline
+\textbf{Hence, mn is odd.} \nonumber\newline
+\text{Q. E. D.}\nonumber
+\end{align}
+
+> Q.E.D.  
+Latin   **Quod Erat Demonstrandum**     
+"What was to be demonstrated"   
+"Thus it was demonstrated"    
+증명이 끝났다.      
+
+Direct Proof: Proof by definition   
+정의를 충족시킨 후 보여줌으로써 증명
+
+
+### Example
+
+**Prove: For every integer $n$, the integer $n^2+n$ is even.**
+
+Every integer $n$ -> Conditional Statement (If $n$ is integer, $n^2+n$ is even)   
+
+>Hypothesis: if $n$ is integer (**every** integer $n$)   
+Conclusion: $n^2+n$ is even (= $2k$)    
+
+Given: $n \in \mathbb{Z}$   
+Will show: $n^2+n=2k$ for some $k \in \mathbb{Z}$   
+
+
+We needed **Cases**:
+- If $n$ is $2m$ for some $m \in \mathbb{Z}$       
+  then $n^2+n = (2m)^2+(2m) = 2(2m^2+m) \in \mathbb{Z}$ 
+- If $n$ is $2m+1$ for some $m \in \mathbb{Z}$       
+  then $n^2+n = (2m+1)^2+(2m+1) = 2(2m^2+3m+1) \in \mathbb{Z}$      
+
+Q. E. D.
+
+### Direct Proof Summary
+**Direct Proof**는 **Conditional Statement**에 주로 사용된다.   
+Conditional Statement는 **"만약 P일때 Q이다"**의 형태로 나타내는 상태이다.    
+정의(definition)에 충족하는 식을 세우고, 계산을 통해 옳다는 것을 증명한다.    
+식을 세울때는 Cases로 나눠서 증명한다.
+
+---
+
+## Indirect Proof
+Indirect Proof는 **Not conditional statement**에 효과적이다.
+
+> Direct Proof: 정의    
+Indirect Proof: 성질
+
+**Prove: There is no smallest positive rational number.**   
+rational number: 유리수   
+
+    
+Proof: Suppose not.
+-> The smallest positive rational number is exist.
+
+Let $q$ be the smallest positive rational number.   
+(for some $m, n \in \mathbb{Z}$)    
+So $q > 0$ and $q = \frac{m}{n}, n \neq 0$      
+
+$\frac{q}{2} = \frac{m}{2n}$ is such that $\frac{q}{2} > 0$ and $\frac{q}{2}$ is rational number ($m, 2n \in \mathbb{Z}, 2n \neq 0$)    
+and $\frac{q}{2} > 0$   
+This contradicts the assumtion that **$q$ is the smallest positive rational number**   
+**Hence, there is no smallest positive rational number**    
+Q. E. D.
+
+### Example
+**Prove: Let m and n be integers. Prove that if mn is odd, that both m and n are odd.**     
+
+Proof by Contradiction, Assume $\mathbb{P}$, Suppose ~$\mathbb{Q}$      
+
+> Given(Hyphothesis): $m, n \in \mathbb{Z}$, and $mn = 2k+1$ (for some $k \in \mathbb{Z}$)    
+Suppose(Not Conclusion): **either $m$ or $n$ is even.**   
+
+WLOG (without Loss Of Generality, 일반성을 잃지 않고, 문자를 바꿔도 문제가 되지 않을 때 사용), let m be the even integer.     
+So, $m=2l$ for some $l \in \mathbb{Z}$    
+\begin{align}
+\text{Then } mn &= (2l)n \nonumber\newline
+&= 2(ln) \quad (ln \in \mathbb{Z}) \nonumber
+\end{align}
+
+$\therefore mn$ is even.    
+This Contradicts our assumption that **mn is odd.**   
+Q. E. D.
+
+## Indirect proof Proving the contrapositive
+**Not P then Not Q**
+
+Let $x$ be a positive real number. Prove that if x is irrational, then is $\sqrt{x}$ irrational    
+$x$를 양의 실수라고 가정. $x$가 유리수가 아닐 때, $\sqrt{x}$는 유리수가 아니다.   
+Proof: Will show **~Q => ~P**
+
+> Grand Assumsion: $x$ be a positive real number (대전제는 건들지 않는다.)   
+$\mathbb{P}$: $x$ is irrational   
+$\mathbb{Q}$: $\sqrt{x}$ is irrational    
+== Direct Proof.    
+
+
+> Given: $x > 0, x \in \mathbb{Z}$    
+$\quad\quad$ and $\sqrt{x} = \frac{m}{n}, $ for some $m, n \in \mathbb{Z}, n \neq 0$    
+Will show: $x$ is rational    
+
+Since $x > 0, \sqrt{x^2} = x = \frac{m^2}{n^2}$, and $m^2, n^2 \in \mathbb{Z}, n^2 \neq 0$    
+
+Q. E. D
+
+### Example
+**Suppose the points ($x_1, y_1$) and ($x_2, y_2$) each satisfy the equation $y = mx + b$**   
+**Prove that if $y_1 \neq y_2$, then $x_1 \neq x_2$**
+> 1. This is **conditonal statement**   
+2. Proof by contrapositive: uses $\mathbb{P}\Rightarrow\mathbb{Q}$ is equivalent to $\sim\mathbb{Q}\Rightarrow\sim\mathbb{P}$   
+3. Leave grand assume as it is    
+but assume $x_1=x_2=\sim\mathbb{Q}$     
+and show $y_1=y_2=\sim\mathbb{P}$     
+4. Difference between "Contradiction" and "Contrapositive"    
+Contradiction: **Leave $\mathbb{P}$ and Suppose $\sim\mathbb{Q}$** (direct proof)      
+Contraposivite: **Prove another new conditional statement $\sim\mathbb{Q}\Rightarrow\sim\mathbb{P}$** (indirect proof)    
+
+($x_1, y_1$) and ($x_2, y_2$) both satisfy    
+$y_1 = mx_1+b$ and    
+$y_2 = mx_2+b$    
+Assume $x_1 = x_2$
+\begin{align}
+mx_1 &= mx_2 \nonumber\newline
+mx_1+b &= mx_2+b \nonumber
+\end{align}   
+So, $y_1=y_2$   
+Q. E. D.
+
+
+# Practice Problem 
+Consider the following statement:   
+**For an integer $n$, if $n^2$ is even, then $n$ is even.**    
+(a) Explain why the indirect proof would work better to prove this statement.     
+Grand assume: $n \in \mathbb{Z}$    
+$\mathbb{P}$: $n^2$ is even   
+$\mathbb{Q}$: $n$ is even
+$\mathbb{P} \Rightarrow \mathbb{Q}$를 증명하려면 복잡한 수식이 필요. $n^2$을 n으로 만들었을 때 짝수가 되는것을 증명하는 것 보다 $n$이 홀수일 때 $n^2$가 홀수라는 것을 증명하는 것이 쉽다.
+      
+(b) Prove the statement by contradiction.          
+Let $n^2=2k$, find $n = 2m-1$   
+$n^2 = n \times n = (2m-1) \time (2m-1) = 4m^2-4m+1 = 2(2m^2-2m)+1$   
+so if n is even, then n^2 is even.        
+
+(c) Prove the statement by contrapositive. 
+Let $n = 2m-1$, prove $n^2=2k-1$    
+$n^2 = n \times n = (2m-1) \times (2m-1) = 4m^2-4m+1 = 2(2m^2-2m+1)-1$
+
+---
+
+원문: [Yuris99/past-blog](https://github.com/Yuris99/past-blog/blob/e65436978e96e9427b0c30bc6b8b754ccd8c6eb7/_posts/Study/24-2/NumberTheory/2024-09-27-1.md) · [전체 학습 기록]({{ '/study/' | relative_url }})

@@ -1,3 +1,17 @@
+# Yuris Blog
+
+개발 메모와 수업 노트를 모으는 학습 기록 블로그입니다.
+
+- 사이트: [blog.yuris.io](https://blog.yuris.io)
+- 학습 기록: [전체 목차](https://blog.yuris.io/study/)
+- 이관 범위와 원본 파일: [아카이브 이관 기록](docs/archive/README.md)
+
+`past-blog`의 학습 글 20개와 `CCS`의 개발 메모 14개를 이관했습니다. 빈 메모 2개, 원래 README와 C++ 파일은 원문 아카이브에 남겼습니다. 원본 저장소의 브랜치와 커밋 이력은 그대로 유지합니다.
+
+테마는 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)입니다. 아래는 원래 테마 안내입니다.
+
+---
+
 <!-- markdownlint-disable-next-line -->
 <div align="center">
 
