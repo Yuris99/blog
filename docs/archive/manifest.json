@@ -1,0 +1,585 @@
+{
+  "migrated_on": "2026-10-12",
+  "sources": {
+    "past": [
+      "Yuris99/past-blog",
+      "e65436978e96e9427b0c30bc6b8b754ccd8c6eb7"
+    ],
+    "ccs": [
+      "Yuris99/CCS",
+      "7a6a973e40755ddfb5037f92ba134a9950f32328"
+    ],
+    "prototype": [
+      "Yuris99/OtakuMerchP",
+      "3dbdbcf4ad5d49ceffbe400894b91af38552b12b"
+    ]
+  },
+  "files": [
+    {
+      "source": "ccs",
+      "path": "AWS/EC2 [Cannot allocate memory].md",
+      "blob": "484f9ed623a69c346c03431288c1639e00f608eb",
+      "preserved_at": "docs/archive/sources/ccs/AWS/EC2 [Cannot allocate memory].md",
+      "published_at": "_posts/archive/ccs/2021-07-16-ccs-aws-ec2-memory.md",
+      "permalink": "/notes/aws/ec2-memory/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "1697a7fbf2e86cf201674bcac42f402e54b3d1c3",
+      "source_last_updated_at": "2021-07-16T07:56:33Z"
+    },
+    {
+      "source": "ccs",
+      "path": "AWS/HTTPS 구축하기.md",
+      "blob": "c915931f6ce7a608b4668ba825047053ecd37d3f",
+      "preserved_at": "docs/archive/sources/ccs/AWS/HTTPS 구축하기.md",
+      "published_at": "_posts/archive/ccs/2021-07-02-ccs-aws-https.md",
+      "permalink": "/notes/aws/https/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "652142c462775991d7d5ffa33d520e511ce7e9dd",
+      "source_last_updated_at": "2021-07-02T08:55:56Z"
+    },
+    {
+      "source": "ccs",
+      "path": "Baekjoon/data structure/stack.cpp",
+      "blob": "7f51ced7e3069c56fde4148dc9979957023617f7",
+      "preserved_at": "docs/archive/sources/ccs/Baekjoon/data structure/stack.cpp"
+    },
+    {
+      "source": "ccs",
+      "path": "GIthub/Gihub Docs.md",
+      "blob": "6db884a8dfa43076cf1c0233a6f1f5786e9dedfd",
+      "preserved_at": "docs/archive/sources/ccs/GIthub/Gihub Docs.md",
+      "published_at": "_posts/archive/ccs/2021-07-20-ccs-github-api-notes.md",
+      "permalink": "/notes/github/api-notes/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "b3a97156edb029b71e985b2e175cdfa0da0b0649",
+      "source_last_updated_at": "2021-07-20T09:35:24Z"
+    },
+    {
+      "source": "ccs",
+      "path": "GIthub/OAuth.md",
+      "blob": "28fd60e959931d20e29483d91addfac18f0b73ab",
+      "preserved_at": "docs/archive/sources/ccs/GIthub/OAuth.md",
+      "published_at": "_posts/archive/ccs/2021-07-23-ccs-github-oauth.md",
+      "permalink": "/notes/github/oauth/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "fa657f8b73dc8d87bbddf9c9e98c852cb0212814",
+      "source_last_updated_at": "2021-07-23T07:02:49Z"
+    },
+    {
+      "source": "ccs",
+      "path": "NGINX/EC2에 NGINX 연결하기.md",
+      "blob": "486419e555d8e2c7f022f061b91604dc9516bae0",
+      "preserved_at": "docs/archive/sources/ccs/NGINX/EC2에 NGINX 연결하기.md",
+      "published_at": "_posts/archive/ccs/2021-07-16-ccs-nginx-ec2-setup.md",
+      "permalink": "/notes/nginx/ec2-setup/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "1697a7fbf2e86cf201674bcac42f402e54b3d1c3",
+      "source_last_updated_at": "2021-07-16T07:56:33Z"
+    },
+    {
+      "source": "ccs",
+      "path": "NGINX/NGINX.md",
+      "blob": "6907b853f6d09cc5fa572c4e4c4ef32b3a71f6d4",
+      "preserved_at": "docs/archive/sources/ccs/NGINX/NGINX.md",
+      "published_at": "_posts/archive/ccs/2021-07-08-ccs-nginx-overview.md",
+      "permalink": "/notes/nginx/overview/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "9052baabbb6ce05575ecfc5b60af594aa04e36cd",
+      "source_last_updated_at": "2021-07-07T16:02:59Z"
+    },
+    {
+      "source": "ccs",
+      "path": "NGINX/NGINX와 React.md",
+      "blob": "6a0de7c044cee76bebd7f9d6a25a410c4eab991f",
+      "preserved_at": "docs/archive/sources/ccs/NGINX/NGINX와 React.md",
+      "published_at": "_posts/archive/ccs/2021-07-16-ccs-nginx-react.md",
+      "permalink": "/notes/nginx/react/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "1697a7fbf2e86cf201674bcac42f402e54b3d1c3",
+      "source_last_updated_at": "2021-07-16T07:56:33Z"
+    },
+    {
+      "source": "ccs",
+      "path": "NestJS/NestJS.md",
+      "blob": "09a0c03a5a11b2540b908aa3634e970987515230",
+      "preserved_at": "docs/archive/sources/ccs/NestJS/NestJS.md",
+      "published_at": "_posts/archive/ccs/2021-07-26-ccs-nestjs-first-notes.md",
+      "permalink": "/notes/nestjs/first-notes/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "7a6a973e40755ddfb5037f92ba134a9950f32328",
+      "source_last_updated_at": "2021-07-26T11:44:04Z"
+    },
+    {
+      "source": "ccs",
+      "path": "README.md",
+      "blob": "f46acdcca08e0a730b4424fa28c91fa87e9b4400",
+      "preserved_at": "docs/archive/sources/ccs/README.md"
+    },
+    {
+      "source": "ccs",
+      "path": "React/React Design Pattern.md",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "preserved_at": "docs/archive/sources/ccs/React/React Design Pattern.md"
+    },
+    {
+      "source": "ccs",
+      "path": "React/React IoC Pattern.md",
+      "blob": "6770a9c2ac0b54e0d4276c6cc986503e238f3cc7",
+      "preserved_at": "docs/archive/sources/ccs/React/React IoC Pattern.md",
+      "published_at": "_posts/archive/ccs/2021-07-26-ccs-react-ioc-patterns.md",
+      "permalink": "/notes/react/ioc-patterns/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "7a6a973e40755ddfb5037f92ba134a9950f32328",
+      "source_last_updated_at": "2021-07-26T11:44:04Z"
+    },
+    {
+      "source": "ccs",
+      "path": "React/React.md",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "preserved_at": "docs/archive/sources/ccs/React/React.md"
+    },
+    {
+      "source": "ccs",
+      "path": "React/React와 Typescript.md",
+      "blob": "ad74985add2f23631976e95c66980653d29c0720",
+      "preserved_at": "docs/archive/sources/ccs/React/React와 Typescript.md",
+      "published_at": "_posts/archive/ccs/2021-07-08-ccs-react-typescript.md",
+      "permalink": "/notes/react/typescript/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "9052baabbb6ce05575ecfc5b60af594aa04e36cd",
+      "source_last_updated_at": "2021-07-07T16:02:59Z"
+    },
+    {
+      "source": "ccs",
+      "path": "Redux/Redux Toolkit.md",
+      "blob": "99c47157bff6df80050f1e6e85df4ef688206f8a",
+      "preserved_at": "docs/archive/sources/ccs/Redux/Redux Toolkit.md",
+      "published_at": "_posts/archive/ccs/2021-07-26-ccs-redux-toolkit.md",
+      "permalink": "/notes/redux/toolkit/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "7a6a973e40755ddfb5037f92ba134a9950f32328",
+      "source_last_updated_at": "2021-07-26T11:44:04Z"
+    },
+    {
+      "source": "ccs",
+      "path": "Redux/Redux,Typescript.md",
+      "blob": "1d95a20d37ad54f0cd085183d8d4a6b7bd2397db",
+      "preserved_at": "docs/archive/sources/ccs/Redux/Redux,Typescript.md",
+      "published_at": "_posts/archive/ccs/2021-07-23-ccs-redux-typescript-packages.md",
+      "permalink": "/notes/redux/typescript-packages/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "fa657f8b73dc8d87bbddf9c9e98c852cb0212814",
+      "source_last_updated_at": "2021-07-23T07:02:49Z"
+    },
+    {
+      "source": "ccs",
+      "path": "Redux/Redux-saga.md",
+      "blob": "cc16f85ffb7ce57ed7d80d706e98098b6fb049bf",
+      "preserved_at": "docs/archive/sources/ccs/Redux/Redux-saga.md",
+      "published_at": "_posts/archive/ccs/2021-07-23-ccs-redux-saga.md",
+      "permalink": "/notes/redux/saga/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "fa657f8b73dc8d87bbddf9c9e98c852cb0212814",
+      "source_last_updated_at": "2021-07-23T07:02:49Z"
+    },
+    {
+      "source": "ccs",
+      "path": "Redux/Redux.md",
+      "blob": "0327ea0052819e88c69f205f8ec965779b1ecc6d",
+      "preserved_at": "docs/archive/sources/ccs/Redux/Redux.md",
+      "published_at": "_posts/archive/ccs/2021-07-16-ccs-redux-overview.md",
+      "permalink": "/notes/redux/overview/",
+      "date_basis": "source_last_commit",
+      "source_last_commit": "1697a7fbf2e86cf201674bcac42f402e54b3d1c3",
+      "source_last_updated_at": "2021-07-16T07:56:33Z"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-01-.md",
+      "blob": "0ff2847e26388606ceeb5770095fb0ffed8f1eca",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-01-.md",
+      "published_at": "_posts/archive/past-blog/2024-10-01-past-data-science-index.md",
+      "permalink": "/study/2024-2/data-science/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-01-0.md",
+      "blob": "5a412763095af2e4e83e705d7e217fc190d6c105",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-01-0.md",
+      "published_at": "_posts/archive/past-blog/2024-10-01-past-data-science-0.md",
+      "permalink": "/study/2024-2/data-science/0/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-01-1.md",
+      "blob": "847f41f88384f88c0eb3fa0d82aa722cbb5d3f2e",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-01-1.md",
+      "published_at": "_posts/archive/past-blog/2024-10-01-past-data-science-1.md",
+      "permalink": "/study/2024-2/data-science/1/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-07-2.md",
+      "blob": "b4a9269e4cde4ba9dcc9e27b7624521c159ea53a",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-07-2.md",
+      "published_at": "_posts/archive/past-blog/2024-10-07-past-data-science-2.md",
+      "permalink": "/study/2024-2/data-science/2/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-07-3.md",
+      "blob": "1f51789ffc69ca98dfa55eefc07adec371fc54df",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-07-3.md",
+      "published_at": "_posts/archive/past-blog/2024-10-07-past-data-science-3.md",
+      "permalink": "/study/2024-2/data-science/3/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-08-4.md",
+      "blob": "81b4be8bae3f9b9eed689286c0325e19d10c4add",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-08-4.md",
+      "published_at": "_posts/archive/past-blog/2024-10-08-past-data-science-4.md",
+      "permalink": "/study/2024-2/data-science/4/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/DataScience/2024-10-08-5.md",
+      "blob": "45b8ee5ec6d5a2b3a4a1ee66662de9d40fd0c0fb",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/DataScience/2024-10-08-5.md",
+      "published_at": "_posts/archive/past-blog/2024-10-08-past-data-science-5.md",
+      "permalink": "/study/2024-2/data-science/5/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NetworkSecurity/2024-09-25-.md",
+      "blob": "f14cdef92dbfe2ec294cc7b328c0359f687fce00",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NetworkSecurity/2024-09-25-.md",
+      "published_at": "_posts/archive/past-blog/2024-09-25-past-network-security-index.md",
+      "permalink": "/study/2024-2/network-security/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-09-25-.md",
+      "blob": "026eb6b483c4ded3be0cff459d3544b3ca531502",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-09-25-.md",
+      "published_at": "_posts/archive/past-blog/2024-09-25-past-number-theory-index.md",
+      "permalink": "/study/2024-2/number-theory/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-09-27-0.md",
+      "blob": "ada136c52acbafe328a9a7bd665b8aad372d8944",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-09-27-0.md",
+      "published_at": "_posts/archive/past-blog/2024-09-27-past-number-theory-0.md",
+      "permalink": "/study/2024-2/number-theory/0/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-09-27-1.md",
+      "blob": "fd4215ef1a25e7bf62e0acec4d89ed73df33763d",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-09-27-1.md",
+      "published_at": "_posts/archive/past-blog/2024-09-27-past-number-theory-1.md",
+      "permalink": "/study/2024-2/number-theory/1/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-10-02-2.md",
+      "blob": "271b887b3f5a43ca3285ee12341983541d0e32e5",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-10-02-2.md",
+      "published_at": "_posts/archive/past-blog/2024-10-02-past-number-theory-2.md",
+      "permalink": "/study/2024-2/number-theory/2/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-10-03-5.md",
+      "blob": "65aaa4279a77619071a65eee2a40302d5d9ac038",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-10-03-5.md",
+      "published_at": "_posts/archive/past-blog/2024-10-03-past-number-theory-5.md",
+      "permalink": "/study/2024-2/number-theory/5/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-10-11-8.md",
+      "blob": "9248754f073fdb1cb61c392802bd504f47f74502",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-10-11-8.md",
+      "published_at": "_posts/archive/past-blog/2024-10-11-past-number-theory-8.md",
+      "permalink": "/study/2024-2/number-theory/8/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/NumberTheory/2024-10-14-9.md",
+      "blob": "01b3d0240b8aeeaba9967de07f5e29338ab2d077",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/NumberTheory/2024-10-14-9.md",
+      "published_at": "_posts/archive/past-blog/2024-10-14-past-number-theory-9.md",
+      "permalink": "/study/2024-2/number-theory/9/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/OperatingSystem/2024-09-25-.md",
+      "blob": "98e48299f612aeed698a7e421288c16dbab68455",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/OperatingSystem/2024-09-25-.md",
+      "published_at": "_posts/archive/past-blog/2024-09-25-past-operating-system-index.md",
+      "permalink": "/study/2024-2/operating-system/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/OperatingSystem/2024-10-07-5.md",
+      "blob": "e87cac9ef21fef41d19ba740ed97009fc85d3b6b",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/OperatingSystem/2024-10-07-5.md",
+      "published_at": "_posts/archive/past-blog/2024-10-07-past-operating-system-5.md",
+      "permalink": "/study/2024-2/operating-system/5/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/OperatingSystem/2024-10-15-4.md",
+      "blob": "122e4fa609769e21776d9f7355b05358f7edad18",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/OperatingSystem/2024-10-15-4.md",
+      "published_at": "_posts/archive/past-blog/2024-10-15-past-operating-system-4.md",
+      "permalink": "/study/2024-2/operating-system/4/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/SWAnalysisNDesign/2024-09-25-.md",
+      "blob": "35097ce91e77a445a62bf1d22b6e0745634579ca",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/SWAnalysisNDesign/2024-09-25-.md",
+      "published_at": "_posts/archive/past-blog/2024-09-25-past-software-analysis-design-index.md",
+      "permalink": "/study/2024-2/software-analysis-design/"
+    },
+    {
+      "source": "past",
+      "path": "_posts/Study/24-2/SWAnalysisNDesign/2024-10-09-3.md",
+      "blob": "abd3530bd9d8f7f384a0f372b1c850e949ed323b",
+      "preserved_at": "docs/archive/sources/past/_posts/Study/24-2/SWAnalysisNDesign/2024-10-09-3.md",
+      "published_at": "_posts/archive/past-blog/2024-10-09-past-software-analysis-design-3.md",
+      "permalink": "/study/2024-2/software-analysis-design/3/"
+    },
+    {
+      "source": "ccs",
+      "path": "React/img/state_reducer.png",
+      "blob": "28debf278b9cb55666982691f697f14977e013f2",
+      "copied_to": "assets/archive/ccs/React/img/state_reducer.png"
+    },
+    {
+      "source": "ccs",
+      "path": "React/img/control_props.png",
+      "blob": "2cefdfbd9559c6e87d0d9b74ae52b5057b3b24f7",
+      "copied_to": "assets/archive/ccs/React/img/control_props.png"
+    },
+    {
+      "source": "ccs",
+      "path": "React/img/compound_components.png",
+      "blob": "b2d0a23144d82c5c1e4c5e0f86be7fbfe74e4f0f",
+      "copied_to": "assets/archive/ccs/React/img/compound_components.png"
+    },
+    {
+      "source": "ccs",
+      "path": "AWS/img/1.png",
+      "blob": "ed693409c33c92a426e12154220ef9d76906430e",
+      "copied_to": "assets/archive/ccs/AWS/img/1.png"
+    },
+    {
+      "source": "ccs",
+      "path": "React/img/props_getters.png",
+      "blob": "ed72e12e5b019f5b4f8df7978993c70ed5e87fdd",
+      "copied_to": "assets/archive/ccs/React/img/props_getters.png"
+    },
+    {
+      "source": "ccs",
+      "path": "React/img/custom_hook.png",
+      "blob": "fb16abff7cc0472111324b8778e2019a4bbc766b",
+      "copied_to": "assets/archive/ccs/React/img/custom_hook.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/PCA.png",
+      "blob": "153497a805574ed737a217d3a4cb568c0fddedd4",
+      "copied_to": "assets/archive/past-blog/DS/PCA.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_BreastCancer.png",
+      "blob": "26c0f9b8fd29fc7539e397b8ef1b6f208870fe55",
+      "copied_to": "assets/archive/past-blog/DS/4_BreastCancer.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/SAD/3_swdp.png",
+      "blob": "3559d5d2244833d48d8dc5eae2f6939bf756a954",
+      "copied_to": "assets/archive/past-blog/SAD/3_swdp.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/Correlation Coefficient.png",
+      "blob": "382ddb5cb344fab5aa1c670f0d3bba521f3f61d6",
+      "copied_to": "assets/archive/past-blog/DS/Correlation Coefficient.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/SAD/3_UP.png",
+      "blob": "40b995344d2fae7775ae7dc6350d4cadfd01a674",
+      "copied_to": "assets/archive/past-blog/SAD/3_UP.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/Histogram_binsize.png",
+      "blob": "4338d79b1eda6ed0e99791928625197d447f0c4c",
+      "copied_to": "assets/archive/past-blog/DS/Histogram_binsize.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/SAD/3_UML.png",
+      "blob": "4b90cf60d55c40bf4c49d8941ee595d503f048c9",
+      "copied_to": "assets/archive/past-blog/SAD/3_UML.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/OS/4_Compiling.png",
+      "blob": "4b9ad7040a4c837a12634690484bdca97ba10992",
+      "copied_to": "assets/archive/past-blog/OS/4_Compiling.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/3_tempPeakPlot.png",
+      "blob": "50e0aef752d5ba2f554ff9035232c0958f2430e0",
+      "copied_to": "assets/archive/past-blog/DS/3_tempPeakPlot.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/PDFs.png",
+      "blob": "51b39f57f6a681814a8228983198a2c978066e55",
+      "copied_to": "assets/archive/past-blog/DS/PDFs.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/SAD/4_UC_Actor.png",
+      "blob": "566763628cb08e8cdb3bebe0969be8cd556bd23a",
+      "copied_to": "assets/archive/past-blog/SAD/4_UC_Actor.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/3_parametergraph.png",
+      "blob": "70bfcb2ed6947c110d554b68388f5e9f78ef73dc",
+      "copied_to": "assets/archive/past-blog/DS/3_parametergraph.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_LogisticLoss.png",
+      "blob": "74494583c066f5294c4d91fc335355765f9b6fec",
+      "copied_to": "assets/archive/past-blog/DS/4_LogisticLoss.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/3_MLProcess.png",
+      "blob": "76bd11feabaaea44a664b3e73c4d704af31c172b",
+      "copied_to": "assets/archive/past-blog/DS/3_MLProcess.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_AUC.png",
+      "blob": "76c7483678eb3b1f297a5c392ba9ac5a698fbb7d",
+      "copied_to": "assets/archive/past-blog/DS/4_AUC.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/3_MSERR.png",
+      "blob": "77fbbdebb89f517b0afd67c27e7577e7981be518",
+      "copied_to": "assets/archive/past-blog/DS/3_MSERR.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/OS/MonoMicroDif.png",
+      "blob": "8e718200ef2287a1bb84081a7d83f5a649060cd2",
+      "copied_to": "assets/archive/past-blog/OS/MonoMicroDif.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/OS/MMHComp.png",
+      "blob": "8f2beb2d21ab80ca0ebc2aaaa487c0dfed2e172b",
+      "copied_to": "assets/archive/past-blog/OS/MMHComp.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_ROCCurve.png",
+      "blob": "9501871db467586042626482a2d339332106889d",
+      "copied_to": "assets/archive/past-blog/DS/4_ROCCurve.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_DTEX1.png",
+      "blob": "9c36043fda38eb5a27e5a8831b8b71fc56a1099f",
+      "copied_to": "assets/archive/past-blog/DS/4_DTEX1.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/SAD/4_UC_R.png",
+      "blob": "9d54a2e3290cb34373120505f0a693a8b5029b45",
+      "copied_to": "assets/archive/past-blog/SAD/4_UC_R.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_DecisionTree.png",
+      "blob": "aa13b74d13c6aabc1477c7219c0e7dd910447d96",
+      "copied_to": "assets/archive/past-blog/DS/4_DecisionTree.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/Sensitivity_and_specificity_1.png",
+      "blob": "b32c229a264bd5f4c7ee9fa66814acc583a141d3",
+      "copied_to": "assets/archive/past-blog/DS/Sensitivity_and_specificity_1.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/Histogram.png",
+      "blob": "cea0ea2b320892c57c236917e145823e9d1a6cc8",
+      "copied_to": "assets/archive/past-blog/DS/Histogram.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/5_kmeans.png",
+      "blob": "cee187118e51b0a968290487ca562a99ab642417",
+      "copied_to": "assets/archive/past-blog/DS/5_kmeans.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_BCFormalSet.png",
+      "blob": "d0623292a7be15471b9fa676cc9b7d8fb181993a",
+      "copied_to": "assets/archive/past-blog/DS/4_BCFormalSet.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_BCLinear.png",
+      "blob": "dbbbff760f35fd60787ff9e2f18fafe6cd00b60c",
+      "copied_to": "assets/archive/past-blog/DS/4_BCLinear.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_Sigmoid.png",
+      "blob": "e3938ee5dac4df7d1b7524d4e330eb7d6f693845",
+      "copied_to": "assets/archive/past-blog/DS/4_Sigmoid.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/SAD/4_UPP.png",
+      "blob": "ecc937ee735031dad4df2753c6598abda75f8127",
+      "copied_to": "assets/archive/past-blog/SAD/4_UPP.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/cdf-plot.png",
+      "blob": "eef72e3b4886bd838295cf4a5737997929ffbe2c",
+      "copied_to": "assets/archive/past-blog/DS/cdf-plot.png"
+    },
+    {
+      "source": "past",
+      "path": "assets/imgs/DS/4_Threadhold.png",
+      "blob": "f41da689efb0c99583464301bc487f08999b5bd0",
+      "copied_to": "assets/archive/past-blog/DS/4_Threadhold.png"
+    }
+  ],
+  "link_repairs": [
+    {
+      "source": "_posts/Study/24-2/SWAnalysisNDesign/2024-10-09-3.md",
+      "repair": "빈 이미지 링크를 원문 경로 미기재 안내로 변경"
+    }
+  ]
+}
